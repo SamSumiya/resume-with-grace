@@ -2,8 +2,16 @@
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
+    "noImplicitAny": true,
     "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react"
   },
-  "include": ["vite.config.ts"]
+  "exclude": ["node_modules"],
+  "include": ["vite.config.ts", "**/*.ts", "**/*.tsx"]
 }
+
