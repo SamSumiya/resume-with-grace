@@ -12,6 +12,6 @@
     "jsx": "react"
   },
   "exclude": ["node_modules"],
-  "include": ["vite.config.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["../vite.config.ts", "**/*.ts", "**/*.tsx"]
 }
 
